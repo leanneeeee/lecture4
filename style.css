@@ -1,0 +1,67 @@
+/* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: #34495e;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #1abc9c;
+        }
+
+        /* Full width image */
+        .au img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Content section */
+        .par {
+            padding: 20px;
+        }
+
+        .text-par {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                grid-template-columns: 1fr;
+            }
+
+            .text-columns {
+                grid-template-columns: 1fr;
+            }
+        }
